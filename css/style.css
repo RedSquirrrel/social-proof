@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: initial;
+}
+
+body {
+  /* 1rem  = 10px => (10px/16px) * 100 = 62.5%  */
+  font-size: 62.5%;
+}

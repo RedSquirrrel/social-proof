@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root {
+  --primary-dark-magenta: hsl(300, 43%, 22%);
+  --primary-soft-pink: hsl(333, 80%, 67%);
+
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+
 *,
 *::before,
 *::after {
@@ -6,9 +17,33 @@
 
 html {
   box-sizing: initial;
+  font-size: 62.5%;
 }
 
 body {
   /* 1rem  = 10px => (10px/16px) * 100 = 62.5%  */
-  font-size: 62.5%;
+  background-image: url('../images/bg-pattern-top-mobile.svg'),
+    url('../images/bg-pattern-bottom-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top right, left bottom;
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.content {
+  margin: 80px 23px 41px 24px;
+}
+
+.content h1 {
+  margin: 80px 24px 18px 24px;
+  font-size: 3.2rem;
+  color: var(--primary-dark-magenta);
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 1.5rem;
+  line-height: 1.666666666666667;
+  font-weight: 500;
 }

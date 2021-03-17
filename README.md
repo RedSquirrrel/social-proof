@@ -25,9 +25,15 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshot.jpg) -->
+<div align = 'center'>
 
--In progress
+Mobile view
+
+![Mobile view](mobile_cover.jpg)
+
+</div>
+
+-Desktop view In progress ...
 
 ### Links
 

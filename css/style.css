@@ -25,7 +25,7 @@ body {
   background-image: url('../images/bg-pattern-top-mobile.svg'),
     url('../images/bg-pattern-bottom-mobile.svg');
   background-repeat: no-repeat;
-  background-position: top right, left bottom;
+  background-position: top left, right bottom;
   font-family: 'Spartan', sans-serif;
   font-size: 1.3rem;
   text-align: center;
@@ -36,6 +36,7 @@ body {
 }
 
 .content h1 {
+  line-height: 1;
   margin: 80px 24px 18px 24px;
   font-size: 3.2rem;
   color: var(--primary-dark-magenta);
@@ -44,6 +45,94 @@ body {
 
 .content p {
   font-size: 1.5rem;
-  line-height: 1.666666666666667;
+  line-height: 1.6;
   font-weight: 500;
+}
+
+.stars_wrapper {
+  margin-top: 41px;
+}
+
+.stars {
+  margin: 0 auto;
+  height: 78px;
+  width: 327px;
+  background-color: var(--dark-grayish-magenta);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.stars_group img {
+  margin-right: 8.45px;
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: 700;
+  color: var(--primary-dark-magenta);
+}
+.buyers_wrapper ul > * + * {
+  margin-top: 1.6rem;
+}
+
+.buyers_wrapper {
+  margin: 49px auto 99px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--White);
+  line-height: 1.7;
+}
+
+blockquote {
+  border-radius: 8px;
+  background-color: var(--primary-dark-magenta);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 327px;
+  height: 248px;
+}
+
+.buyer {
+  margin: 40px 32px 26px 32px;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 40px;
+}
+
+.buyer img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.buyer span {
+  color: var(--primary-soft-pink);
+}
+
+p {
+  margin: 0 32px 32px 32px;
+}
+
+.attribution {
+  color: var(--primary-dark-magenta);
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-dark-magenta) !important;
+  font-weight: 700;
+}
+a:hover {
+  text-decoration: underline;
+  transition: 2s;
 }

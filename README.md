@@ -48,6 +48,7 @@ Mobile view
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 
 ### What I learned
 

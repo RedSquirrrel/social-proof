@@ -27,13 +27,15 @@ Users should be able to:
 
 <div align = 'center'>
 
+Desktop view
+
+![Desktop view](desktop_cover.jpg)
+
 Mobile view
 
 ![Mobile view](mobile_cover.jpg)
 
 </div>
-
--Desktop view In progress ...
 
 ### Links
 

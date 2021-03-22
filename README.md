@@ -29,18 +29,18 @@ Users should be able to:
 
 Desktop view
 
-![Desktop view](desktop_cover.jpg)
+![Desktop view](desktop_cover.png)
 
 Mobile view
 
-![Mobile view](mobile_cover.jpg)
+![Mobile view](mobile_cover.png)
 
 </div>
 
 ### Links
 
-- Solution URL: [My solution URL](https://github.com/RedSquirrrel/social-proof)
-- Live Site URL: [live site URL still in progress](https://your-live-site-url.com)
+- Solution URL: [My solution URL](https://github.com/RedSquirrrel/social-proof#the-challenge)
+- Live Site URL: [live site URL still in progress](https://redsquirrrel.github.io/social-proof/)
 
 ## My process
 
@@ -54,19 +54,18 @@ Mobile view
 
 ### What I learned
 
-- to keep my work organized
+- keep my code clean and organizaed
 - rethink the project
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- CSS Grid
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [An article about CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ## Author
 
-- Website - [Anette](https://www.your-site.com)
+- Website - [Anette](https://redsquirrrel.github.io/social-proof/)
 - Frontend Mentor - [@RedSquirrrel](https://www.frontendmentor.io/profile/RedSquirrrel)

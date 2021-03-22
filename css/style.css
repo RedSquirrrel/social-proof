@@ -184,7 +184,6 @@ a:hover {
   .container {
     max-width: 70%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
@@ -260,10 +259,11 @@ a:hover {
 
   .attribution {
     color: var(--primary-dark-magenta);
-    margin-top: -60px;
+    margin-top: -40px;
+    margin-left: 40px;
     font-size: 1.3rem;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
   }
 }
 
